@@ -41,13 +41,17 @@ And made the code change the `isIdle` parameter to false when the ***r***  key i
 Now, to ACTUALLY switch the weapons, I had the script initialize with the three weapons
 ![weapons](https://i.postimg.cc/J7dQjf82/weapons.png)
 Then, I created two Animation events. One that will fire off when the character has it's hand behind it's back 
+
 ![switchevent](https://i.postimg.cc/wT4TqkhJ/switchanimation.png)
+
 ```sh
 This event fires off a function inside the script that sets the current equipped weapon to disabled and sets the next weapon on the list as enabled.
 ```
 
 And one at the end of the last frame.
+
 ![roulleteWeapons](https://i.postimg.cc/SsVbZyd8/roullete.png)
+
 ```sh
 This event fires off a function inside the script that sets what the current equipped weapon is and which weapon is due next.
 ```
