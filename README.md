@@ -39,7 +39,9 @@ And so, with all the parts set it came time to animate it. I made a very basic a
 And made the code change the `isIdle` parameter to false when the ***r***  key is pressed
 
 Now, to ACTUALLY switch the weapons, I had the script initialize with the three weapons
+
 ![weapons](https://i.postimg.cc/J7dQjf82/weapons.png)
+
 Then, I created two Animation events. One that will fire off when the character has it's hand behind it's back 
 
 ![switchevent](https://i.postimg.cc/wT4TqkhJ/switchanimation.png)
